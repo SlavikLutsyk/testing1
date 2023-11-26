@@ -1,0 +1,188 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Projects\\Automatic testing labs\\Calculator\\Calculator\\AnalaizerTests\\AnalaizerTests.csproj": {}
+  },
+  "projects": {
+    "C:\\Projects\\Automatic testing labs\\Calculator\\Calculator\\AnalaizerTests\\AnalaizerTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\Automatic testing labs\\Calculator\\Calculator\\AnalaizerTests\\AnalaizerTests.csproj",
+        "projectName": "AnalaizerTests",
+        "projectPath": "C:\\Projects\\Automatic testing labs\\Calculator\\Calculator\\AnalaizerTests\\AnalaizerTests.csproj",
+        "packagesPath": "C:\\Users\\slavi\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\Automatic testing labs\\Calculator\\Calculator\\AnalaizerTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\slavi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Projects\\Automatic testing labs\\Calculator\\Calculator\\AnalizerClassLibrary\\AnalizerClassLibrary.csproj": {
+                "projectPath": "C:\\Projects\\Automatic testing labs\\Calculator\\Calculator\\AnalizerClassLibrary\\AnalizerClassLibrary.csproj"
+              },
+              "C:\\Projects\\Automatic testing labs\\Calculator\\Calculator\\ErrorLibrary\\ErrorLibrary.csproj": {
+                "projectPath": "C:\\Projects\\Automatic testing labs\\Calculator\\Calculator\\ErrorLibrary\\ErrorLibrary.csproj"
+              },
+              "C:\\Projects\\Automatic testing labs\\Calculator\\Calculator\\GraphInterface\\GraphInterface.csproj": {
+                "projectPath": "C:\\Projects\\Automatic testing labs\\Calculator\\Calculator\\GraphInterface\\GraphInterface.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.10, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.10, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.3.2, )"
+            },
+            "MySql.Data.EntityFramework": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "MySql.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\Automatic testing labs\\Calculator\\Calculator\\AnalizerClassLibrary\\AnalizerClassLibrary.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\Automatic testing labs\\Calculator\\Calculator\\AnalizerClassLibrary\\AnalizerClassLibrary.csproj",
+        "projectName": "AnalizerClassLibrary",
+        "projectPath": "C:\\Projects\\Automatic testing labs\\Calculator\\Calculator\\AnalizerClassLibrary\\AnalizerClassLibrary.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Projects\\Automatic testing labs\\Calculator\\Calculator\\CalcClassBr\\CalcClassBr.csproj": {
+                "projectPath": "C:\\Projects\\Automatic testing labs\\Calculator\\Calculator\\CalcClassBr\\CalcClassBr.csproj"
+              },
+              "C:\\Projects\\Automatic testing labs\\Calculator\\Calculator\\ErrorLibrary\\ErrorLibrary.csproj": {
+                "projectPath": "C:\\Projects\\Automatic testing labs\\Calculator\\Calculator\\ErrorLibrary\\ErrorLibrary.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Projects\\Automatic testing labs\\Calculator\\Calculator\\CalcClassBr\\CalcClassBr.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\Automatic testing labs\\Calculator\\Calculator\\CalcClassBr\\CalcClassBr.csproj",
+        "projectName": "CalcClassBr",
+        "projectPath": "C:\\Projects\\Automatic testing labs\\Calculator\\Calculator\\CalcClassBr\\CalcClassBr.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Projects\\Automatic testing labs\\Calculator\\Calculator\\ErrorLibrary\\ErrorLibrary.csproj": {
+                "projectPath": "C:\\Projects\\Automatic testing labs\\Calculator\\Calculator\\ErrorLibrary\\ErrorLibrary.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Projects\\Automatic testing labs\\Calculator\\Calculator\\ErrorLibrary\\ErrorLibrary.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\Automatic testing labs\\Calculator\\Calculator\\ErrorLibrary\\ErrorLibrary.csproj",
+        "projectName": "ErrorLibrary",
+        "projectPath": "C:\\Projects\\Automatic testing labs\\Calculator\\Calculator\\ErrorLibrary\\ErrorLibrary.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Projects\\Automatic testing labs\\Calculator\\Calculator\\GraphInterface\\GraphInterface.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\Automatic testing labs\\Calculator\\Calculator\\GraphInterface\\GraphInterface.csproj",
+        "projectName": "GraphInterface",
+        "projectPath": "C:\\Projects\\Automatic testing labs\\Calculator\\Calculator\\GraphInterface\\GraphInterface.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Projects\\Automatic testing labs\\Calculator\\Calculator\\AnalizerClassLibrary\\AnalizerClassLibrary.csproj": {
+                "projectPath": "C:\\Projects\\Automatic testing labs\\Calculator\\Calculator\\AnalizerClassLibrary\\AnalizerClassLibrary.csproj"
+              },
+              "C:\\Projects\\Automatic testing labs\\Calculator\\Calculator\\CalcClassBr\\CalcClassBr.csproj": {
+                "projectPath": "C:\\Projects\\Automatic testing labs\\Calculator\\Calculator\\CalcClassBr\\CalcClassBr.csproj"
+              },
+              "C:\\Projects\\Automatic testing labs\\Calculator\\Calculator\\ErrorLibrary\\ErrorLibrary.csproj": {
+                "projectPath": "C:\\Projects\\Automatic testing labs\\Calculator\\Calculator\\ErrorLibrary\\ErrorLibrary.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}
